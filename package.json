@@ -1,0 +1,45 @@
+{
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix dev",
+    "start": "remix-serve build",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@dqbd/tiktoken": "^1.0.7",
+    "@prisma/client": "^5.1.1",
+    "@radix-ui/react-icons": "^1.3.0",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@radix-ui/react-tooltip": "^1.0.6",
+    "@remix-run/css-bundle": "^1.19.1",
+    "@remix-run/node": "^1.19.1",
+    "@remix-run/react": "^1.19.1",
+    "@remix-run/serve": "^1.19.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "isbot": "^3.6.8",
+    "langchain": "^0.0.122",
+    "lucide-react": "^0.263.1",
+    "pdf-parse": "^1.1.1",
+    "pgvector": "^0.1.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-textarea-autosize": "^8.5.2",
+    "redis": "^4.6.7",
+    "tailwind-merge": "^1.14.0",
+    "tailwindcss-animate": "^1.0.6"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^1.19.1",
+    "@remix-run/eslint-config": "^1.19.1",
+    "@types/react": "^18.0.35",
+    "@types/react-dom": "^18.0.11",
+    "eslint": "^8.38.0",
+    "typescript": "^5.0.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
